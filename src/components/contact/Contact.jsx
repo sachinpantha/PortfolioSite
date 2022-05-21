@@ -4,6 +4,10 @@ import Email from "../../images/email.png";
 import Address from "../../images/map.png";
 import emailjs from "emailjs-com"
 import {BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs'
+import {DiMongodb,DiNodejsSmall} from 'react-icons/di'
+import {SiExpress,SiAdobeillustrator} from 'react-icons/si'
+import {RiReactjsFill} from 'react-icons/ri'
+import {FaDocker,FaFigma} from 'react-icons/fa'
 import { useRef } from "react";
 const Contact = () => {
   const formRef=useRef();
@@ -64,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="Contact-Right" >
-            <p className="c-desc">Send me Message, if you have any queries in Programming and Physics. So that i can reach you out there and help as much i can as i always love giving back to community ;-)</p>
+            <p className="c-desc">I like to talk about <DiMongodb style={{height:'35px',width:'35px'}}/><SiExpress style={{height:'35px',width:'35px'}}/><DiNodejsSmall style={{height:'35px',width:'35px'}}/><RiReactjsFill style={{height:'35px',width:'35px'}}/><FaDocker style={{height:'35px',width:'35px'}}/><FaFigma style={{height:'35px',width:'35px'}}/><SiAdobeillustrator style={{height:'35px',width:'35px'}}/>{''} and things related to Astrophysics and Literature, If you want to talk regarding this things, you can connect with me ;-)</p>
             <form onSubmit={handleSubmit} ref={formRef}>
               <input type="text" placeholder="Name" name="user_name" />
               <input type="text" placeholder="Subject" name="user_subject" />

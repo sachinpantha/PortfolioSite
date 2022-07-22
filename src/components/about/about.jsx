@@ -28,8 +28,8 @@ const about = () => {
             personalities across the Nation.
           </p>
         </div>
-        <br/>
-        <a className="hero" href={Resume} style={{'padding':'5px','backgroundColor':'green','color':'white','textDecoration':'none'}} target="_blank">Download Resume</a>
+        <br />
+        <a className="hero" href={Resume} style={{ 'padding': '5px', 'backgroundColor': 'green', 'color': 'white', 'textDecoration': 'none' }} target="_blank">Download Resume</a>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background: #1c163a;
+    /* background: #1c163a; */
+    background: #000;
   }
   .loader {
     position: absolute;
@@ -25,7 +26,8 @@ body {
     height: 12px;
     width: 12px;
     border-radius: 12px;
-    background-color: #efefef;
+    /* background-color: #efefef; */
+    background-color: #fffb16;
   }
   .circles span.one {
     right: 80px;
@@ -89,7 +91,8 @@ body {
     left: 0;
     height: 30px;
     width: 60px;
-    background-color: #fffb16;
+    
+    background-color: #fff;
   }
   .pacman .top::before {
     top: 0;

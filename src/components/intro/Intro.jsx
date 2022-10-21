@@ -2,6 +2,24 @@ import React from 'react'
 import Me from '../../images/me.png'
 import './intro.css'
 const Intro = () => {
+    document.oncontextmenu = () => {
+        alert('Kina Right Click Gareko?')
+        return false
+    }
+    document.onkeydown = (e) => {
+        if (e.key == 'F12') {
+            alert('F12 kina press garya? esbata ni herna mildaina')
+            return false
+        }
+        if (e.ctrlKey && e.key == "U" || e.key == 'u') {
+            alert('Source code kina herchau yar? Ramro code chaina.')
+            return false
+        }
+        if (e.ctrlKey && e.shiftKey && e.key == "I") {
+            alert('Kina Inspect gareko?')
+            return false
+        }
+    }
     return (
         <div className='intro'>
             <div className="intro-left">

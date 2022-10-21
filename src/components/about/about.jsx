@@ -3,6 +3,12 @@ import ImG from "../../images/me2.jpg";
 import "./about.css";
 import Resume from '../resume/resume.pdf'
 const about = () => {
+  document.addEventListener('keyup', (e) => {
+    if (e.key === 'PrintScreen') {
+      navigator.clipboard.writeText('')
+      alert('Screenshot nagaram na yar')
+    }
+  })
   return (
     <div className="about">
       <div className="about-left">

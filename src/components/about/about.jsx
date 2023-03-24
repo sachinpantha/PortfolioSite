@@ -21,7 +21,7 @@ const about = () => {
         <h1 className="a-title">About Me</h1>
         <div className="sep">
           <p className="a-sub" data-aos="fade-left">
-            Currently I'm working as Executive Tech Lead at{" "}
+            Currently I'm Joint Secretary at{" "}
             <span style={{ fontWeight: "bold" }}>CSIT Association of BMC</span>{" "}
             where i've got chance to engage with many experienced personalities
             collectively organizing several events.

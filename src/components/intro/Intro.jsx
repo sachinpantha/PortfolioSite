@@ -11,10 +11,10 @@ const Intro = () => {
             alert('F12 kina press garya? esbata ni herna mildaina')
             return false
         }
-        if (e.ctrlKey && e.key == "U" || e.key == 'u') {
-            alert('Source code kina herchau yar? Ramro code chaina.')
-            return false
-        }
+        // if (e.ctrlKey && e.key == "U" || e.key == 'u') {
+        //     alert('Source code kina herchau yar? Ramro code chaina.')
+        //     return false
+        // }
         if (e.ctrlKey && e.shiftKey && e.key == "I") {
             alert('Kina Inspect gareko?')
             return false
@@ -31,11 +31,11 @@ const Intro = () => {
                             <div className="intro-title-item">MERN Stack</div>
                             <div className="intro-title-item">UI/UX Designer</div>
                             <div className="intro-title-item">Graphics Designer</div>
-                            <div className="intro-title-item">Story Writer</div>
+                            <div className="intro-title-item">Content Writer</div>
                         </div>
                     </div>
                     <div className="i-desc">
-                        Im a student of Bsc. CSIT at IOST in 3rd semester and I'm fumbling around with desining, creating, Exploring and Learning Programming also researching mysteries in Astrophysics.
+                        Im a student of Bsc. CSIT at IOST in 4th semester and I'm fumbling around with desining, creating, Exploring and Learning Programming also researching mysteries in Astrophysics.
                     </div>
                 </div>
             </div>
